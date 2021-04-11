@@ -1,0 +1,41 @@
+.container--medium {
+  padding: 0 calc(15vw);
+}
+.container--medium .fa-arrow-circle-left {
+  font-size: 0.7rem;
+  padding-right: 5px;
+}
+
+.resultsPanel__title {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.resultsPanel__title span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cityChange__button {
+  color: #d95405 !important;
+  border: 1px #d95405 solid;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .container--medium {
+    padding: 0 30px;
+  }
+
+  .resultsPanel__title span {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container--medium {
+    padding: 0 10px;
+  }
+  .resultsPanel__title span {
+    font-size: 1.2rem;
+  }
+}

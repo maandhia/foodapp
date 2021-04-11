@@ -1,0 +1,13 @@
+.notFound__contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notFound__title {
+  font-size: 3rem;
+}
+.notFound__image {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+}

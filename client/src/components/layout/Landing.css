@@ -1,0 +1,26 @@
+.landing__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing__title {
+  padding-bottom: 3rem;
+  font-size: 3rem;
+}
+
+@media (max-width: 800px) {
+  .landing__container {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    position: static;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}

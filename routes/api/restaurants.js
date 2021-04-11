@@ -7,8 +7,7 @@ const api = axios.create({
   baseURL: 'https://api.yelp.com/v3/businesses',
   headers: {
     'Content-Type': 'application/json',
-    Authorization:
-      'Bearer DuksbojfdWDLbiE0QczpHo2-rYIh5zBB8bsspaFeK-W-QWKaLwwXarooP4MDrvIrCD4KrEnmhSaCwzZCK_0pKSGr1iiQmXyAx6eO5h11WSs3IrOpriljH7X6UwRuYHYx',
+    Authorization: `Bearer ${process.env.YELP_TOKEN}`,
   },
 });
 

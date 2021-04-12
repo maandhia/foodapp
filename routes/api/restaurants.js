@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-const { check, validationResult } = require('express-validator');
 
 const api = axios.create({
   baseURL: 'https://api.yelp.com/v3/businesses',
@@ -19,7 +18,6 @@ router.post('/restaurants', async (req, res) => {
     });
     res.send(restaurants.data);
   } catch (err) {
-    console.log(err.response.data);
     res.status(500).send(err.response.data);
   }
 });

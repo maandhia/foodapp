@@ -1,6 +1,5 @@
 import { SET_ALERT, REMOVE_ALERT } from '../actions/types';
 
-//array of objects, the array is seperate for each reducer
 const initialState = [];
 
 export default (state = initialState, action) => {

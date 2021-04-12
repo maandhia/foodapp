@@ -20,7 +20,7 @@ const Restaurants = (props) => {
     ) {
       props.getRestaurants({ location: props.match.params.cityName });
     }
-  }, [props.getRestaurants, props.match.params.cityName]); //getRestaurants is an action creator
+  }, [props.getRestaurants, props.match.params.cityName]);
 
   const searchSubmitted = (refinedRestaurants, term = null) => {
     setRefinedList(refinedRestaurants);

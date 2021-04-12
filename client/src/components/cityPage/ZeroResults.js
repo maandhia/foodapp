@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ZeroResults.css';
 
 const ZeroResults = (props) => {
@@ -6,10 +7,11 @@ const ZeroResults = (props) => {
     <main className='zeroResults__contianer'>
       <section className='text--center'>
         <h2 className='zeroResults__title'>Such Empty!</h2>
-
-        <button className='big-button' onClick={props.onSubmit}>
-          try a new search
-        </button>
+        <Link to='/'>
+          <button className='big-button' onClick={props.onSubmit}>
+            try a new search
+          </button>
+        </Link>
       </section>
     </main>
   );

@@ -26,3 +26,24 @@ const NotFound = () => {
 };
 
 export default NotFound;
+
+
+{
+  "firstName": "Maan",
+  "lastName": "Sidiki",
+  "location": "Toronto",
+  "experience":"3 years",
+  "website":"https://sidiki.dev".
+  "projects":[{"name":"Avid Math", "URL":"https://avidmath.com"},{"name":"Auxilium", "URL":"https://auxilium.sidiki.dev/"}],
+  "passions": [
+  "Web Development",
+  "Technology",
+  "Physics"
+  ],
+  "hobbies": [
+  "Road cycling",
+  "Reading",
+  "Meditation"
+  ],  
+ 
+  }
